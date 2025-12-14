@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terms — Islington Partners</title>
+    <meta name="description" content="Terms of service for Islington Partners." />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              base: {
+                50: '#fafafa',
+                100: '#f5f5f5',
+                200: '#e5e5e5',
+                300: '#d4d4d4',
+                400: '#a3a3a3',
+                500: '#737373',
+                600: '#525252',
+                700: '#404040',
+                800: '#262626',
+                900: '#171717',
+                950: '#0a0a0a',
+              },
+            },
+            fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+          },
+        },
+      };
+    </script>
+    <style>
+      html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    </style>
+  </head>
+  <body class="bg-white text-base-900 antialiased selection:bg-black/10 selection:text-black">
+    <header class="mx-auto max-w-6xl px-6 py-8">
+      <a href="/" class="inline-flex items-center gap-2 text-sm text-base-600 hover:text-base-950 transition">
+        <span class="flex h-7 w-7 items-center justify-center rounded bg-black text-white text-[11px]">_</span>
+        Islington Partners
+      </a>
+    </header>
+
+    <main class="mx-auto max-w-3xl px-6 pb-16">
+      <h1 class="text-3xl font-semibold tracking-tight text-base-950">Terms</h1>
+      <p class="mt-3 text-base text-base-700">Placeholder terms page. Replace with your final terms text.</p>
+
+      <div class="mt-8 space-y-6 text-sm text-base-700">
+        <section>
+          <h2 class="text-base-950 font-medium">No advice</h2>
+          <p class="mt-2">Information provided is for general purposes and does not constitute legal, tax, or investment advice.</p>
+        </section>
+        <section>
+          <h2 class="text-base-950 font-medium">Confidentiality</h2>
+          <p class="mt-2">Deal flow and firm details may be confidential and should not be shared without permission.</p>
+        </section>
+        <section>
+          <h2 class="text-base-950 font-medium">Contact</h2>
+          <p class="mt-2">If you have questions, contact us via the forms on the site.</p>
+        </section>
+      </div>
+    </main>
+
+    <footer class="mx-auto max-w-6xl px-6 pb-10">
+      <div class="h-px w-full bg-gradient-to-r from-transparent via-black/10 to-transparent"></div>
+      <div class="mt-6 flex flex-col items-start justify-between gap-3 text-xs text-base-500 sm:flex-row sm:items-center">
+        <span>© <span id="year"></span> Islington Partners</span>
+        <div class="inline-flex items-center gap-4">
+          <a href="/privacy/" class="hover:text-base-950 transition">Privacy</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
+
