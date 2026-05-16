@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects | Islington Partners</title>
+    <meta name="description" content="Software and training products built by Islington Partners — practical tools for accounting firms and professional service businesses." />
+    <meta name="robots" content="index,follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Projects | Islington Partners" />
+    <meta property="og:description" content="Software and training products built by Islington Partners — practical tools for accounting firms and professional service businesses." />
+    <meta property="og:url" content="https://islingtonpartners.com/projects/" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              base: {
+                50: '#fafafa', 100: '#f5f5f5', 200: '#e5e5e5',
+                300: '#d4d4d4', 400: '#a3a3a3', 500: '#737373',
+                600: '#525252', 700: '#404040', 800: '#262626',
+                900: '#171717', 950: '#0a0a0a',
+              },
+            },
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900 antialiased selection:bg-gray-100">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100">
+      <div class="mx-auto max-w-6xl px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a href="/" class="font-semibold tracking-tight text-gray-900 hover:text-gray-600 transition text-sm">
+            Islington Partners
+          </a>
+          <nav class="hidden md:flex items-center gap-7 text-sm">
+            <a href="/" class="text-gray-500 hover:text-gray-900 transition">Home</a>
+            <a href="/consulting/" class="text-gray-500 hover:text-gray-900 transition">Consulting</a>
+            <a href="/projects/" class="text-gray-900 font-medium">Projects</a>
+            <a href="/about/" class="text-gray-500 hover:text-gray-900 transition">About</a>
+            <a href="/contact/" class="text-gray-500 hover:text-gray-900 transition">Contact</a>
+            <a href="/contact/" class="rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700 transition">Book a call</a>
+          </nav>
+          <button id="nav-toggle" class="md:hidden p-2 text-gray-500 hover:text-gray-900 transition" aria-label="Toggle navigation">
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+        <nav id="mobile-menu" class="hidden py-4 border-t border-gray-100 mt-4">
+          <div class="flex flex-col gap-4 text-sm">
+            <a href="/" class="text-gray-600 hover:text-gray-900 transition">Home</a>
+            <a href="/consulting/" class="text-gray-600 hover:text-gray-900 transition">Consulting</a>
+            <a href="/projects/" class="text-gray-900 font-medium">Projects</a>
+            <a href="/about/" class="text-gray-600 hover:text-gray-900 transition">About</a>
+            <a href="/contact/" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
+            <a href="/contact/" class="inline-flex w-fit rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700 transition">Book a call</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- Hero -->
+      <section class="bg-white py-20 sm:py-28 border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-3xl">
+            <p class="text-xs font-medium text-gray-400 tracking-widest uppercase mb-5">Projects</p>
+            <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 leading-tight">
+              Products and experiments built around modern service businesses.
+            </h1>
+            <p class="mt-6 text-lg sm:text-xl text-gray-500 leading-relaxed max-w-2xl">
+              We build and test software and training products based on recurring problems we see in consulting, operations, client work, automation, and online business.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why we build products -->
+      <section class="py-20 bg-gray-50 border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-2xl">
+            <h2 class="text-2xl font-semibold tracking-tight text-gray-900">Products grounded in real problems</h2>
+            <div class="mt-6 space-y-4 text-gray-500 leading-relaxed">
+              <p>Our consulting work puts us inside accounting firms and professional service businesses. We see the same operational problems come up repeatedly — in scheduling, client communication, team training, cybersecurity, workflow management, and more.</p>
+              <p>Where we see a problem that is widespread, practical to solve, and not well addressed by existing tools, we build something.</p>
+              <p>The products we build are designed to work alongside consulting — not replace it. They are focused, specific, and built to be useful from day one.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Current projects -->
+      <section class="py-20 bg-white border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="mb-12">
+            <h2 class="text-2xl font-semibold tracking-tight text-gray-900">Current projects</h2>
+          </div>
+          <div class="space-y-6">
+
+            <!-- Project 1: Consulting -->
+            <div class="rounded-xl border border-gray-200 p-8">
+              <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+                <div class="flex-1">
+                  <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">Consulting</p>
+                  <h3 class="text-xl font-semibold text-gray-900">Accounting Firm Consulting</h3>
+                  <p class="mt-3 text-gray-500 leading-relaxed max-w-2xl">Hands-on workflow, systems, and Karbon consulting for accounting firms across the UK, US, EU, and Canada. We work directly with firm owners, partners, and operations leads to improve how work gets done.</p>
+                  <div class="mt-5">
+                    <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">Includes</p>
+                    <ul class="space-y-1.5 text-sm text-gray-500">
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Workflow and job template design</li>
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Karbon implementation and optimisation</li>
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>AI and automation use case mapping</li>
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Team training and operational support</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="md:flex-shrink-0">
+                  <a href="/consulting/" class="inline-flex items-center rounded-md border border-gray-200 px-5 py-2.5 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-900 transition">
+                    Learn more →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2: Client Guard Academy -->
+            <div class="rounded-xl border border-gray-200 p-8">
+              <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+                <div class="flex-1">
+                  <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">Training product</p>
+                  <h3 class="text-xl font-semibold text-gray-900">Client Guard Academy</h3>
+                  <p class="mt-3 text-gray-500 leading-relaxed max-w-2xl">Cybersecurity awareness training built specifically for accounting firms and professional service teams handling sensitive client data. Firms in this space are high-value targets — staff need to understand the risks and how to respond.</p>
+                  <div class="mt-5">
+                    <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">Built for</p>
+                    <ul class="space-y-1.5 text-sm text-gray-500">
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Accounting and advisory firms</li>
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Professional service businesses handling client data</li>
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Teams needing structured cybersecurity training</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="md:flex-shrink-0">
+                  <a href="https://clientguardacademy.com/" target="_blank" rel="noopener" class="inline-flex items-center rounded-md border border-gray-200 px-5 py-2.5 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-900 transition">
+                    Visit site →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3: calendr.so -->
+            <div class="rounded-xl border border-gray-200 p-8">
+              <div class="flex flex-col md:flex-row md:items-start md:justify-between gap-6">
+                <div class="flex-1">
+                  <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">Software</p>
+                  <h3 class="text-xl font-semibold text-gray-900">calendr.so</h3>
+                  <p class="mt-3 text-gray-500 leading-relaxed max-w-2xl">Scheduling software for professional service firms that need more than a basic booking page. Built around the specific needs of firms managing team availability, client intake data, routing logic, and workflow handoffs.</p>
+                  <div class="mt-5">
+                    <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">Key capabilities</p>
+                    <ul class="space-y-1.5 text-sm text-gray-500">
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Team booking pages and availability management</li>
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Client data capture at the point of booking</li>
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Routing and assignment logic</li>
+                      <li class="flex items-start gap-2"><span class="text-gray-300 select-none">—</span>Workflow handoffs and integrations</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="md:flex-shrink-0">
+                  <a href="https://calendr.so/" target="_blank" rel="noopener" class="inline-flex items-center rounded-md border border-gray-200 px-5 py-2.5 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-900 transition">
+                    Visit site →
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- How it connects -->
+      <section class="py-20 bg-gray-50 border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-2xl">
+            <h2 class="text-2xl font-semibold tracking-tight text-gray-900">How consulting and products connect</h2>
+            <div class="mt-6 space-y-4 text-gray-500 leading-relaxed">
+              <p>The products we build come directly from what we see in consulting. When a problem comes up again and again — in firm after firm, across different markets — it becomes a candidate for a product.</p>
+              <p>This means our products are not built on assumptions. They are built on direct, repeated exposure to real operational problems in the businesses we work with.</p>
+              <p>And our consulting is stronger because of the products. We understand the full software landscape for professional service firms — not just the major platforms, but the gaps between them.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <section class="py-20 bg-gray-900">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-xl">
+            <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-white">Interested in our consulting work?</h2>
+            <p class="mt-4 text-gray-400 leading-relaxed">The best way to start is a short conversation about your firm and what you are trying to improve.</p>
+            <div class="mt-8 flex flex-col sm:flex-row gap-3">
+              <a href="/contact/" class="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition">
+                Book a consulting call
+              </a>
+              <a href="/consulting/" class="inline-flex items-center justify-center rounded-md border border-gray-700 px-6 py-3 text-sm font-medium text-white hover:border-gray-500 transition">
+                Learn about consulting
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-gray-400">
+      <div class="mx-auto max-w-6xl px-6 py-14">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+          <div class="col-span-2 md:col-span-1">
+            <p class="text-sm font-semibold text-white tracking-tight">Islington Partners</p>
+            <p class="mt-3 text-sm leading-relaxed text-gray-500">Systems, software, and automation for modern service firms.</p>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Navigation</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="/consulting/" class="hover:text-white transition">Consulting</a></li>
+              <li><a href="/projects/" class="hover:text-white transition">Projects</a></li>
+              <li><a href="/about/" class="hover:text-white transition">About</a></li>
+              <li><a href="/contact/" class="hover:text-white transition">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Current projects</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="https://clientguardacademy.com/" target="_blank" rel="noopener" class="hover:text-white transition">Client Guard Academy</a></li>
+              <li><a href="https://calendr.so/" target="_blank" rel="noopener" class="hover:text-white transition">calendr.so</a></li>
+              <li><a href="https://lnks.to/" target="_blank" rel="noopener" class="hover:text-white transition">lnks.to</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Legal</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="/privacy/" class="hover:text-white transition">Privacy Policy</a></li>
+              <li><a href="/terms/" class="hover:text-white transition">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-gray-600">
+          <p>© <span id="year"></span> Islington Partners. All rights reserved.</p>
+          <a href="mailto:hello@islingtonpartners.com" class="hover:text-gray-400 transition">hello@islingtonpartners.com</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      const toggle = document.getElementById('nav-toggle');
+      const menu = document.getElementById('mobile-menu');
+      if (toggle && menu) {
+        toggle.addEventListener('click', () => menu.classList.toggle('hidden'));
+      }
+    </script>
+  </body>
+</html>

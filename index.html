@@ -1,426 +1,389 @@
 <!doctype html>
-<html lang="en" class="h-full bg-white">
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Islington Partners — Fast, Discreet M&A for Modern Accounting Firms</title>
-    <meta name="description" content="Sell your accounting firm confidentially and close in as little as 90 days. For owner-managed accounting, outsourced finance, and advisory firms in the US & UK." />
+    <title>Islington Partners | Systems, Software and Automation for Modern Service Firms</title>
+    <meta name="description" content="Islington Partners helps accounting firms and professional service businesses improve operations through workflow design, software implementation, automation, AI adoption, and practical consulting." />
     <meta name="robots" content="index,follow" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Islington Partners — Fast, Discreet M&A for Modern Accounting Firms" />
-    <meta property="og:description" content="Sell your accounting firm confidentially and close in as little as 90 days. US & UK." />
-    <meta property="og:image" content="/og-image.png" />
+    <meta property="og:title" content="Islington Partners | Systems, Software and Automation for Modern Service Firms" />
+    <meta property="og:description" content="Islington Partners helps accounting firms and professional service businesses improve operations through workflow design, software implementation, automation, AI adoption, and practical consulting." />
     <meta property="og:url" content="https://islingtonpartners.com/" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Islington Partners — Fast, Discreet M&A for Modern Accounting Firms" />
-    <meta name="twitter:description" content="Sell your accounting firm confidentially and close in as little as 90 days. US & UK." />
-    <meta name="twitter:image" content="/og-image.png" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Optional: Tailwind Plus interactive elements (used for command/commandfor patterns) -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
-    <!-- Analytics placeholders (replace IDs when ready) -->
-    <!-- GA4 placeholder -->
-    <script>
-      // window.GA4_MEASUREMENT_ID = "G-XXXXXXXXXX";
-      // TODO: Insert GA4 gtag snippet here.
-    </script>
-    <!-- Meta Pixel placeholder -->
-    <script>
-      // window.META_PIXEL_ID = "000000000000000";
-      // TODO: Insert Meta Pixel snippet here.
-    </script>
     <script>
       tailwind.config = {
         theme: {
           extend: {
             colors: {
               base: {
-                50: '#fafafa',
-                100: '#f5f5f5',
-                200: '#e5e5e5',
-                300: '#d4d4d4',
-                400: '#a3a3a3',
-                500: '#737373',
-                600: '#525252',
-                700: '#404040',
-                800: '#262626',
-                900: '#171717',
-                950: '#0a0a0a',
-              },
-              brand: {
-                DEFAULT: '#ffffff',
+                50: '#fafafa', 100: '#f5f5f5', 200: '#e5e5e5',
+                300: '#d4d4d4', 400: '#a3a3a3', 500: '#737373',
+                600: '#525252', 700: '#404040', 800: '#262626',
+                900: '#171717', 950: '#0a0a0a',
               },
             },
             fontFamily: {
-              sans: [
-                'Inter',
-                'ui-sans-serif',
-                'system-ui',
-                'Segoe UI',
-                'Roboto',
-                'Helvetica Neue',
-                'Arial',
-                'Noto Sans',
-                'Apple Color Emoji',
-                'Segoe UI Emoji',
-                'Segoe UI Symbol',
-                'Noto Color Emoji',
-              ],
-            },
-            boxShadow: {
-              card: '0 1px 1px rgb(0 0 0 / 0.03) inset, 0 0 0 1px rgb(0 0 0 / 0.06) inset',
+              sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
             },
           },
         },
       };
     </script>
-
     <style>
-      /* Improve font rendering */
       html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
     </style>
   </head>
-  <!-- Note: homepage includes a sticky bottom banner; add bottom padding so content isn't obscured -->
-  <body class="bg-white text-base-900 antialiased selection:bg-black/10 selection:text-black pb-24 sm:pb-28">
-    <div class="relative">
-      <!-- Subtle background gradient -->
-      <div class="pointer-events-none absolute inset-0"></div>
+  <body class="bg-white text-gray-900 antialiased selection:bg-gray-100">
 
-      <header class="relative z-10">
-        <div class="mx-auto max-w-7xl px-6 py-6 sm:py-8">
-          <div class="flex items-center justify-between">
-            <a href="/" class="group inline-block">
-              <span class="text-base-950/90 group-hover:text-base-950 transition font-semibold tracking-tight">Islington Partners</span>
-            </a>
-            <nav class="hidden sm:flex items-center gap-6 text-sm">
-              <a href="/" class="text-base-950">Home</a>
-              <a href="/sell/" class="text-base-600 hover:text-base-950 transition">Sell Your Firm</a>
-              <a href="/buy/" class="text-base-600 hover:text-base-950 transition">Buy a Firm</a>
-            </nav>
-          </div>
-        </div>
-      </header>
-
-      <main class="relative z-10">
-        <!-- Hero (pattern background + gradient blob + collage) -->
-        <section class="relative isolate overflow-hidden bg-white">
-
-          <div class="mx-auto max-w-7xl px-6 pt-10 pb-20 sm:pt-14 lg:px-8 lg:pt-12">
-            <div class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center">
-              <!-- LEFT: Keep existing hero text/buttons EXACTLY -->
-              <div class="relative w-full lg:max-w-xl lg:shrink-0 xl:max-w-2xl">
-                <div class="hidden sm:mb-10 sm:flex">
-                  <div class="relative rounded-full px-3 py-1 whitespace-nowrap text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    Buy financial services firms in the US &amp; UK.
-                    <a href="/buy/" class="font-semibold whitespace-nowrap text-blue-600">
-                      <span aria-hidden="true" class="absolute inset-0"></span>
-                      Learn more <span aria-hidden="true">→</span>
-                    </a>
-                  </div>
-                </div>
-
-                <h1 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900">
-                  Sell Your Accounting Firm in 90 Days
-                </h1>
-                <p class="mt-8 text-lg font-medium text-pretty text-gray-600 sm:text-xl/8">
-                  Connecting financial services firm owners with pre‑qualified buyers who are ready to close. Discreetly and with the strongest realistic valuation.
-                </p>
-
-                <div class="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3">
-                  <a
-                    href="mailto:enquiries@islingtonpartners.com?subject=Confidential%20valuation%20call&body=Hi%20Islington%20Partners%2C%0A%0AI%27d%20like%20to%20book%20a%20confidential%20valuation%20call.%0A%0AName%3A%0AFirm%3A%0APhone%3A%0AAnnual%20fees%20range%3A%0ACountry%3A%0A%0AThanks%2C%0A"
-                    data-event="seller_valuation_cta"
-                    class="rounded-md bg-black px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-                  >Book a Confidential Valuation Call</a>
-                  <a href="/sell/" class="text-sm/6 font-semibold text-gray-900">
-                    Learn more <span aria-hidden="true">→</span>
-                  </a>
-                </div>
-
-                <div class="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-xs text-gray-500">
-                  <span class="inline-flex items-center gap-2">Fast, discreet process</span>
-                  <span>$500k–$5M annual fees</span>
-                  <span>US &amp; UK</span>
-                </div>
-              </div>
-
-              <!-- RIGHT: Collage imagery -->
-              <div class="mt-14 flex justify-end gap-6 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0">
-                <div class="ml-auto w-44 flex-none space-y-6 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-0 xl:pt-80">
-                  <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&h=528&q=80" alt="Team meeting" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" loading="lazy" />
-                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset"></div>
-                  </div>
-                </div>
-                <div class="mr-auto w-44 flex-none space-y-6 sm:mr-0 sm:pt-52 lg:pt-36">
-                  <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1485217988980-11786ced9454?auto=format&fit=crop&h=528&q=80" alt="Workspace" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" loading="lazy" />
-                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset"></div>
-                  </div>
-                  <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&crop=focalpoint&fp-x=.4&w=396&h=528&q=80" alt="Advisory discussion" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" loading="lazy" />
-                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset"></div>
-                  </div>
-                </div>
-                <div class="w-44 flex-none space-y-6 pt-32 sm:pt-0">
-                  <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1670272504528-790c24957dda?auto=format&fit=crop&crop=left&w=400&h=528&q=80" alt="Office" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" loading="lazy" />
-                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset"></div>
-                  </div>
-                  <div class="relative">
-                    <img src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?auto=format&fit=crop&h=528&q=80" alt="Planning" class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg" loading="lazy" />
-                    <div class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-gray-900/10 ring-inset"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Seller Criteria -->
-        <section class="bg-white mx-auto max-w-7xl px-6 py-16">
-          <div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
-            <div class="lg:col-span-1">
-              <h3 class="text-2xl font-semibold tracking-tight text-base-950">Selling Your Practice</h3>
-              <p class="mt-4 text-lg text-gray-600">
-                We work with owner‑managed accounting and advisory firms that have been carefully built over many years and are now approaching a transition point.
-              </p>
-              <p class="mt-4 text-lg text-gray-600">
-                Our process is designed specifically for firms with <strong class="font-semibold text-base-950">$500k–$5M in annual fees</strong> across the US and UK,
-                where the owner wants a clean, discreet exit — without unsettling staff, clients, or the local community.
-              </p>
-            </div>
-            <div class="lg:col-span-1">
-              <div class="rounded-2xl bg-base-50 p-6">
-                <p class="text-sm font-medium text-base-950">This is typically a good fit if you:</p>
-                <ul class="mt-4 list-disc space-y-2 pl-5 text-sm text-base-700 marker:text-base-400">
-                  <li>Are considering retirement or stepping back in the next 6–24 months</li>
-                  <li>Have long‑standing client relationships you want protected</li>
-                  <li>Employ an experienced team you care deeply about</li>
-                  <li>Use modern or partially modernised cloud systems</li>
-                  <li>Want clarity, speed, and discretion — not a drawn‑out sale process</li>
-                </ul>
-                <p class="mt-5 text-sm text-base-700">If that sounds like you, we should talk.</p>
-                <div class="mt-6">
-                <!--  <a href="/sell/#seller-form" data-event="seller_valuation_cta" class="inline-flex items-center justify-center rounded-lg bg-black px-5 py-3 text-sm font-medium text-white shadow-sm ring-1 ring-black/10 hover:bg-black/90 transition">
-                    Book a Confidential Valuation Call
-                  </a> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <!-- Active buyer criteria -->
-        <section class="overflow-hidden bg-white py-24 sm:py-32">
-          <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
-            <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:max-w-none lg:min-w-full lg:flex-none lg:gap-y-8">
-              <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
-                <h3 class="text-2xl font-semibold tracking-tight text-base-950">Buying an Accounting Firm</h3>
-                <p class="mt-4 text-lg text-gray-600">We represent buyers who are actively looking to acquire firms quickly, either to build a portfolio or to grow their existing business.</p>
-                <p class="mt-4 text-lg text-gray-600">Buyers like working with us because our firms meet the following criteria:</p>
-                <ul class="mt-6 list-disc pl-5 space-y-2 text-base/7 text-lg text-gray-600 marker:text-gray-400">
-                  <li>$500k–$5M in annual fees</li>
-                  <li>Strong recurring revenue</li>
-                  <li>Cloud‑based or modernising systems</li>
-                  <li>High client trust and retention</li>
-                  <li>Skilled teams staying post‑sale</li>
-                </ul>
-                <p class="mt-4 text-lg text-gray-600">If this criteria matches what you are looking for, we should talk.</p>
-                <div class="mt-10 flex">
-                  <!-- <a href="/sell/#seller-form" data-event="seller_valuation_cta" class="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
-                      Book a Confidential Valuation Call <span aria-hidden="true">→</span>
-                    </a> -->
-                </div>
-              </div>
-
-              <div class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents">
-                <div class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end">
-                  <img src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&auto=format&fit=crop&w=1152&q=80" alt="Office workspace" class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover max-sm:w-[30rem]" loading="lazy" />
-                </div>
-                <div class="contents lg:col-span-2 lg:col-end-2 lg:ml-auto lg:flex lg:w-[37rem] lg:items-start lg:justify-end lg:gap-x-8">
-                  <div class="order-first flex w-64 flex-none justify-end self-end max-sm:w-40 lg:w-auto">
-                    <img src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&auto=format&fit=crop&w=768&h=604&q=80" alt="Team collaboration" class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover" loading="lazy" />
-                  </div>
-                  <div class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none">
-                    <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&auto=format&fit=crop&w=1152&h=842&q=80" alt="Meeting" class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover max-sm:w-[30rem]" loading="lazy" />
-                  </div>
-                  <div class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none">
-                    <img src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=768&h=604&q=80" alt="Advisory" class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover" loading="lazy" />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <!-- Process -->
-        <section id="process" class="mx-auto max-w-6xl px-6 py-16">
-          <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2 class="text-4xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-5xl">Simple, fast, and discreet sale</h2>
-            <p class="mt-6 text-lg/8 text-gray-600">We have developed a fast, discreet process to get the highest realistic valuation, on the fastest sensible timeline. It's built to maximise outcomes while protecting what you’ve built.</p>
-          </div>
-          <div class="mt-6 grid grid-cols-1 gap-6 md:grid-cols-3">
-            <div class="rounded-2xl bg-base-50 p-6">
-              <p class="text-xs font-medium text-base-500">Week 1–2: Valuation &amp; Positioning</p>
-              <h3 class="mt-2 text-base-950 font-medium tracking-tight">Maximise Your Payout</h3>
-              <ul class="mt-3 list-disc pl-5 space-y-2 text-sm text-base-700 marker:text-base-400">
-                <li>Confidential valuation call</li>
-                <li>Exit readiness score</li>
-                <li>Positioning for a premium offer</li>
-              </ul>
-            </div>
-            <div class="rounded-2xl bg-base-50 p-6">
-              <p class="text-xs font-medium text-base-500">Week 3–6: Buyer Introductions</p>
-              <h3 class="mt-2 text-base-950 font-medium tracking-tight">Close Quickly &amp; Quietly</h3>
-              <ul class="mt-3 list-disc pl-5 space-y-2 text-sm text-base-700 marker:text-base-400">
-                <li>Off‑market buyer outreach</li>
-                <li>Serious buyer calls arranged</li>
-                <li>Competitive offer negotiation</li>
-              </ul>
-            </div>
-            <div class="rounded-2xl bg-base-50 p-6">
-              <p class="text-xs font-medium text-base-500">Week 7–12: Due Diligence &amp; Handover</p>
-              <h3 class="mt-2 text-base-950 font-medium tracking-tight">Protect Your Legacy</h3>
-              <ul class="mt-3 list-disc pl-5 space-y-2 text-sm text-base-700 marker:text-base-400">
-                <li>Deal progression &amp; documentation</li>
-                <li>Owner transition support</li>
-                <li>Clean handover with minimal disruption</li>
-              </ul>
-            </div>
-          </div>
-        </section>
-
-        <!-- Value boost (CTA panel, black accents) -->
-        <section class="bg-white">
-          <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-            <div class="relative isolate overflow-hidden bg-black/90 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
-              
-              <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
-                <p class="text-sm font-medium text-base-500 mb-2">Optional</p>
-                <h2 class="text-3xl font-semibold tracking-tight text-balance text-white sm:text-4xl">Value Boost Before Sale</h2>
-                <p class="mt-6 text-lg/8 text-pretty text-gray-300">Want to increase the payout before you sell? We offer a rapid operational uplift to improve valuation and buyer confidence:</p>
-                <ul class="mt-4 list-disc pl-5 space-y-2 text-sm text-gray-200 marker:text-gray-400">
-                  <li>Streamlined workflows</li>
-                  <li>Better margin visibility</li>
-                  <li>Reduced owner dependency</li>
-                  <li>Improved handover readiness</li>
-                </ul>
-                <p class="mt-6 text-sm text-gray-300">Even modest improvements can materially increase offers.</p>
-
-                <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-                  <a href="mailto:enquiries@islingtonpartners.com?subject=Confidential%20valuation%20call&body=Hi%20Islington%20Partners%2C%0A%0AI%27d%20like%20to%20book%20a%20confidential%20valuation%20call.%0A%0AName%3A%0AFirm%3A%0APhone%3A%0AAnnual%20fees%20range%3A%0ACountry%3A%0A%0AThanks%2C%0A" data-event="seller_valuation_cta" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-                    Book a Confidential Valuation Call
-                  </a>
-                  <a href="/sell/" class="text-sm/6 font-semibold text-white hover:text-gray-100">
-                    Learn more <span aria-hidden="true">→</span>
-                  </a>
-                </div>
-              </div>
-
-              <div class="relative mt-16 h-80 lg:mt-8">
-                <!-- <img width="1824" height="1080" src="https://tailwindcss.com/plus-assets/img/component-images/dark-project-app-screenshot.png" alt="Value boost preview" class="absolute top-0 left-0 w-228 max-w-none rounded-md bg-white/5 ring-1 ring-white/10" loading="lazy" /> -->
-              </div>
-            </div>
-          </div>
-        </section>
-
-
-        <!-- Final CTA: What could your firm sell for today? (black accents) -->
-        <section class="bg-white">
-          <div class="px-6 py-24 sm:py-32 lg:px-8">
-            <div class="mx-auto max-w-2xl text-center">
-              <h2 class="text-4xl font-semibold tracking-tight text-balance text-gray-900 sm:text-5xl">Discreetly value your firm today</h2>
-              <p class="mx-auto mt-6 max-w-xl text-lg/8 text-pretty text-gray-600">Speak privately with our M&amp;A advisors — no obligation, no pressure to disover what your firm is worth and how to get the best price.</p>
-              <div class="mt-10 flex items-center justify-center gap-x-6">
-                <a href="mailto:enquiries@islingtonpartners.com?subject=Confidential%20valuation%20call&body=Hi%20Islington%20Partners%2C%0A%0AI%27d%20like%20to%20book%20a%20confidential%20valuation%20call.%0A%0AName%3A%0AFirm%3A%0APhone%3A%0AAnnual%20fees%20range%3A%0ACountry%3A%0A%0AThanks%2C%0A" data-event="seller_valuation_cta" class="rounded-md bg-black px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-black/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
-                  Book Your Confidential Valuation Call
-                </a>
-                <a href="/sell/" class="text-sm/6 font-semibold text-gray-900">Learn more about selling <span aria-hidden="true">→</span></a>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-
-      <footer class="relative z-10">
-        <div class="mx-auto max-w-6xl px-6 pb-10">
-          <div class="h-px w-full bg-gradient-to-r from-transparent via-black/10 to-transparent"></div>
-          <div class="mt-6 flex flex-col items-start justify-between gap-3 text-xs text-base-500 sm:flex-row sm:items-center">
-            <div class="inline-flex items-center gap-2">
-              <span>© <span id="year"></span> Islington Partners</span>
-            </div>
-            
-            <div class="inline-flex items-center gap-4">
-              <a href="/sell/" class="hover:text-base-950 transition">Sell</a>
-              <a href="/buy/" class="hover:text-base-950 transition">Buy</a>
-              <a href="mailto:enquiries@islingtonpartners.com" class="hover:text-base-950 transition">Contact</a>
-              <a href="/privacy/" class="hover:text-base-950 transition">Privacy</a>
-              <a href="/terms/" class="hover:text-base-950 transition">Terms</a>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </div>
-
-    <!-- Sticky banner: Buyers guide CTA -->
-    <div id="buyers-guide-banner" class="pointer-events-none fixed inset-x-0 bottom-0 z-50 sm:px-6 sm:pb-5 lg:px-8">
-      <div class="pointer-events-auto flex items-center justify-between gap-x-6 bg-gray-900 px-6 py-2.5 sm:rounded-xl sm:py-3 sm:pr-3.5 sm:pl-4">
-        <p class="text-sm/6 text-white">
-          <a href="/buyers-guide/" data-event="leadmagnet_banner_cta">
-            <strong class="font-semibold">Buyers Guide (2025)</strong><svg viewBox="0 0 2 2" aria-hidden="true" class="mx-2 inline size-0.5 fill-current"><circle r="1" cx="1" cy="1" /></svg>
-            Download: What Buyers Are Paying for Accounting Firms in 2025&nbsp;<span aria-hidden="true">&rarr;</span>
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100">
+      <div class="mx-auto max-w-6xl px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a href="/" class="font-semibold tracking-tight text-gray-900 hover:text-gray-600 transition text-sm">
+            Islington Partners
           </a>
-        </p>
-        <button
-          id="buyers-guide-banner-dismiss"
-          type="button"
-          class="-m-3 flex-none p-3 focus-visible:-outline-offset-4"
-          onclick="(function(){var b=document.getElementById('buyers-guide-banner'); if(b){b.remove();} try{localStorage.setItem('ip_buyers_guide_banner_dismissed','1');}catch(e){}})()"
-        >
-          <span class="sr-only">Dismiss</span>
-          <svg viewBox="0 0 20 20" fill="currentColor" data-slot="icon" aria-hidden="true" class="size-5 text-white">
-            <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
-          </svg>
-        </button>
+          <nav class="hidden md:flex items-center gap-7 text-sm">
+            <a href="/" class="text-gray-900 font-medium">Home</a>
+            <a href="/consulting/" class="text-gray-500 hover:text-gray-900 transition">Consulting</a>
+            <a href="/projects/" class="text-gray-500 hover:text-gray-900 transition">Projects</a>
+            <a href="/about/" class="text-gray-500 hover:text-gray-900 transition">About</a>
+            <a href="/contact/" class="text-gray-500 hover:text-gray-900 transition">Contact</a>
+            <a href="/contact/" class="rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700 transition">Book a call</a>
+          </nav>
+          <button id="nav-toggle" class="md:hidden p-2 text-gray-500 hover:text-gray-900 transition" aria-label="Toggle navigation">
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+        <nav id="mobile-menu" class="hidden py-4 border-t border-gray-100 mt-4">
+          <div class="flex flex-col gap-4 text-sm">
+            <a href="/" class="text-gray-900 font-medium">Home</a>
+            <a href="/consulting/" class="text-gray-600 hover:text-gray-900 transition">Consulting</a>
+            <a href="/projects/" class="text-gray-600 hover:text-gray-900 transition">Projects</a>
+            <a href="/about/" class="text-gray-600 hover:text-gray-900 transition">About</a>
+            <a href="/contact/" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
+            <a href="/contact/" class="inline-flex w-fit rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700 transition">Book a call</a>
+          </div>
+        </nav>
       </div>
-    </div>
+    </header>
+
+    <main>
+
+      <!-- 1. Hero -->
+      <section class="bg-white py-20 sm:py-28 border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-3xl">
+            <p class="text-xs font-medium text-gray-400 tracking-widest uppercase mb-5">Consulting · Software · Automation</p>
+            <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 leading-tight">
+              Systems, software, and automation for modern service firms.
+            </h1>
+            <p class="mt-6 text-lg sm:text-xl text-gray-500 leading-relaxed max-w-2xl">
+              Islington Partners helps accounting firms and professional service businesses improve the way work gets done — through better workflows, software implementation, automation, AI adoption, and practical operational support.
+            </p>
+            <div class="mt-10 flex flex-col sm:flex-row gap-3">
+              <a href="/contact/" class="inline-flex items-center justify-center rounded-md bg-gray-900 px-6 py-3 text-sm font-medium text-white hover:bg-gray-700 transition">
+                Book a consulting call
+              </a>
+              <a href="/projects/" class="inline-flex items-center justify-center rounded-md border border-gray-200 bg-white px-6 py-3 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-900 transition">
+                View current projects
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. Credibility -->
+      <section class="py-20 bg-gray-50 border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900">
+                Built from hands-on work with real firms
+              </h2>
+              <div class="mt-6 space-y-4 text-gray-500 leading-relaxed">
+                <p>Islington Partners is built on practical experience working with accounting firms and professional service businesses across the UK, US, EU, and Canada.</p>
+                <p>We have helped firms improve internal workflows, implement modern tools, train teams, streamline client communication, and create more scalable ways of delivering work.</p>
+                <p>Our work sits at the intersection of operations, software, automation, AI, and product development.</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+              <div class="rounded-xl border border-gray-200 bg-white p-6">
+                <p class="text-2xl font-semibold text-gray-900">UK</p>
+                <p class="mt-1 text-sm text-gray-500">United Kingdom</p>
+              </div>
+              <div class="rounded-xl border border-gray-200 bg-white p-6">
+                <p class="text-2xl font-semibold text-gray-900">US</p>
+                <p class="mt-1 text-sm text-gray-500">United States</p>
+              </div>
+              <div class="rounded-xl border border-gray-200 bg-white p-6">
+                <p class="text-2xl font-semibold text-gray-900">EU</p>
+                <p class="mt-1 text-sm text-gray-500">Europe</p>
+              </div>
+              <div class="rounded-xl border border-gray-200 bg-white p-6">
+                <p class="text-2xl font-semibold text-gray-900">CA</p>
+                <p class="mt-1 text-sm text-gray-500">Canada</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. What we do -->
+      <section class="py-20 bg-white border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900">What we do</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="rounded-xl border border-gray-200 p-7">
+              <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">01</p>
+              <h3 class="text-base font-semibold text-gray-900">Consulting</h3>
+              <p class="mt-3 text-sm text-gray-500 leading-relaxed">Workflow design, Karbon implementation, process mapping, team training, operational support, and systems improvement for accounting firms and service businesses.</p>
+              <a href="/consulting/" class="mt-6 inline-flex items-center text-sm font-medium text-gray-900 hover:text-gray-500 transition">
+                Learn more <span class="ml-1">→</span>
+              </a>
+            </div>
+            <div class="rounded-xl border border-gray-200 p-7">
+              <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">02</p>
+              <h3 class="text-base font-semibold text-gray-900">Automation and AI</h3>
+              <p class="mt-3 text-sm text-gray-500 leading-relaxed">Practical support identifying where automation and AI can reduce admin, improve visibility, speed up work, and help teams operate more effectively.</p>
+              <a href="/consulting/" class="mt-6 inline-flex items-center text-sm font-medium text-gray-900 hover:text-gray-500 transition">
+                Learn more <span class="ml-1">→</span>
+              </a>
+            </div>
+            <div class="rounded-xl border border-gray-200 p-7">
+              <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-3">03</p>
+              <h3 class="text-base font-semibold text-gray-900">Software and training products</h3>
+              <p class="mt-3 text-sm text-gray-500 leading-relaxed">We build and test focused products based on recurring operational problems we see inside service businesses — from scheduling and cybersecurity training to client workflows and lead capture.</p>
+              <a href="/projects/" class="mt-6 inline-flex items-center text-sm font-medium text-gray-900 hover:text-gray-500 transition">
+                View projects <span class="ml-1">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. Accounting firm consulting -->
+      <section class="py-20 bg-gray-50 border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+            <div>
+              <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900">Consulting for accounting firms</h2>
+              <div class="mt-6 space-y-4 text-gray-500 leading-relaxed">
+                <p>We help accounting firms improve the systems that sit behind their client work.</p>
+                <p>This includes designing better workflows, implementing and improving Karbon, mapping recurring jobs, training teams, improving operational visibility, and helping firms make better use of their existing software stack.</p>
+              </div>
+              <div class="mt-8">
+                <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-4">Typical areas of work</p>
+                <ul class="space-y-2.5 text-sm text-gray-500">
+                  <li class="flex items-start gap-2.5"><span class="text-gray-300 mt-0.5 select-none">—</span>Karbon implementation and optimisation</li>
+                  <li class="flex items-start gap-2.5"><span class="text-gray-300 mt-0.5 select-none">—</span>Workflow and job template design</li>
+                  <li class="flex items-start gap-2.5"><span class="text-gray-300 mt-0.5 select-none">—</span>Client onboarding processes</li>
+                  <li class="flex items-start gap-2.5"><span class="text-gray-300 mt-0.5 select-none">—</span>Annual accounts and tax workflow design</li>
+                  <li class="flex items-start gap-2.5"><span class="text-gray-300 mt-0.5 select-none">—</span>Team training and adoption support</li>
+                  <li class="flex items-start gap-2.5"><span class="text-gray-300 mt-0.5 select-none">—</span>Operational reporting and visibility</li>
+                  <li class="flex items-start gap-2.5"><span class="text-gray-300 mt-0.5 select-none">—</span>AI and automation use cases</li>
+                  <li class="flex items-start gap-2.5"><span class="text-gray-300 mt-0.5 select-none">—</span>Client communication improvements</li>
+                </ul>
+              </div>
+              <div class="mt-10">
+                <a href="/contact/" class="inline-flex items-center rounded-md bg-gray-900 px-6 py-3 text-sm font-medium text-white hover:bg-gray-700 transition">
+                  Discuss a consulting project
+                </a>
+              </div>
+            </div>
+            <div>
+              <div class="rounded-xl border border-gray-200 bg-white p-8">
+                <p class="text-xs font-medium text-gray-400 uppercase tracking-wider mb-5">Tools and platforms we work with</p>
+                <ul class="space-y-3">
+                  <li class="flex items-center gap-3 text-sm text-gray-600">
+                    <span class="w-1.5 h-1.5 rounded-full bg-gray-300 flex-shrink-0"></span>
+                    Karbon (workflow and practice management)
+                  </li>
+                  <li class="flex items-center gap-3 text-sm text-gray-600">
+                    <span class="w-1.5 h-1.5 rounded-full bg-gray-300 flex-shrink-0"></span>
+                    Microsoft 365 and Google Workspace
+                  </li>
+                  <li class="flex items-center gap-3 text-sm text-gray-600">
+                    <span class="w-1.5 h-1.5 rounded-full bg-gray-300 flex-shrink-0"></span>
+                    Xero, QuickBooks, Sage
+                  </li>
+                  <li class="flex items-center gap-3 text-sm text-gray-600">
+                    <span class="w-1.5 h-1.5 rounded-full bg-gray-300 flex-shrink-0"></span>
+                    Zapier, Make, and custom automation
+                  </li>
+                  <li class="flex items-center gap-3 text-sm text-gray-600">
+                    <span class="w-1.5 h-1.5 rounded-full bg-gray-300 flex-shrink-0"></span>
+                    AI tools and integrations
+                  </li>
+                  <li class="flex items-center gap-3 text-sm text-gray-600">
+                    <span class="w-1.5 h-1.5 rounded-full bg-gray-300 flex-shrink-0"></span>
+                    CRM and client communication platforms
+                  </li>
+                </ul>
+                <div class="mt-8 pt-6 border-t border-gray-100">
+                  <p class="text-xs text-gray-400">We work with accounting firms across the UK, US, EU, and Canada.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. Product studio -->
+      <section class="py-20 bg-white border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-2xl">
+            <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900">Products built from real operational problems</h2>
+            <div class="mt-6 space-y-4 text-gray-500 leading-relaxed">
+              <p>Alongside our consulting work, we build and test software and training products based on problems we repeatedly see inside service businesses.</p>
+              <p>These products are not abstract experiments. They are practical tools designed to solve specific operational problems — around scheduling, client communication, training, cybersecurity, lead generation, and workflow management.</p>
+            </div>
+            <div class="mt-8">
+              <a href="/projects/" class="inline-flex items-center text-sm font-medium text-gray-900 hover:text-gray-500 transition">
+                View current projects <span class="ml-1">→</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. Current projects -->
+      <section class="py-20 bg-gray-50 border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="mb-12">
+            <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900">Current projects</h2>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="rounded-xl border border-gray-200 bg-white p-7 flex flex-col">
+              <div class="flex-1">
+                <h3 class="text-base font-semibold text-gray-900">Accounting Firm Consulting</h3>
+                <p class="mt-3 text-sm text-gray-500 leading-relaxed">Hands-on workflow, systems, and Karbon consulting for accounting firms across the UK, US, EU, and Canada.</p>
+              </div>
+              <div class="mt-8 pt-6 border-t border-gray-100">
+                <a href="/consulting/" class="text-sm font-medium text-gray-900 hover:text-gray-500 transition">
+                  Learn more →
+                </a>
+              </div>
+            </div>
+            <div class="rounded-xl border border-gray-200 bg-white p-7 flex flex-col">
+              <div class="flex-1">
+                <h3 class="text-base font-semibold text-gray-900">Client Guard Academy</h3>
+                <p class="mt-3 text-sm text-gray-500 leading-relaxed">Cybersecurity awareness training for accounting firms and professional service teams handling sensitive client data.</p>
+              </div>
+              <div class="mt-8 pt-6 border-t border-gray-100">
+                <a href="https://clientguardacademy.com/" target="_blank" rel="noopener" class="text-sm font-medium text-gray-900 hover:text-gray-500 transition">
+                  clientguardacademy.com →
+                </a>
+              </div>
+            </div>
+            <div class="rounded-xl border border-gray-200 bg-white p-7 flex flex-col">
+              <div class="flex-1">
+                <h3 class="text-base font-semibold text-gray-900">calendr.so</h3>
+                <p class="mt-3 text-sm text-gray-500 leading-relaxed">Scheduling software for professional service firms that need better team booking pages, client data capture, routing, and workflow handoffs.</p>
+              </div>
+              <div class="mt-8 pt-6 border-t border-gray-100">
+                <a href="https://calendr.so/" target="_blank" rel="noopener" class="text-sm font-medium text-gray-900 hover:text-gray-500 transition">
+                  calendr.so →
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. Philosophy -->
+      <section class="py-20 bg-white border-b border-gray-100">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-2xl">
+            <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-gray-900">Better systems, not more complexity</h2>
+            <div class="mt-6 space-y-4 text-gray-500 leading-relaxed">
+              <p>Many growing firms respond to operational pressure by adding more tools, more meetings, more spreadsheets, and more manual work.</p>
+              <p>We believe the better answer is to design clearer systems.</p>
+              <p>The next generation of professional service firms will use software more deliberately, automate repetitive work, train their teams properly, and use AI where it creates real leverage.</p>
+              <p>They will have clearer workflows, better client data, tighter communication, and more scalable ways of delivering work.</p>
+              <p>Islington Partners exists to help firms move in that direction.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8. Final CTA -->
+      <section class="py-20 bg-gray-900">
+        <div class="mx-auto max-w-6xl px-6">
+          <div class="max-w-xl">
+            <h2 class="text-2xl sm:text-3xl font-semibold tracking-tight text-white">Want to improve how your firm operates?</h2>
+            <p class="mt-4 text-gray-400 leading-relaxed">If you are reviewing your systems, implementing Karbon, exploring AI, improving workflows, or looking for more scalable ways to manage client work, we can help.</p>
+            <div class="mt-8 flex flex-col sm:flex-row gap-3">
+              <a href="/contact/" class="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition">
+                Book a consulting call
+              </a>
+              <a href="mailto:hello@islingtonpartners.com" class="inline-flex items-center justify-center rounded-md border border-gray-700 px-6 py-3 text-sm font-medium text-white hover:border-gray-500 transition">
+                Email us
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-gray-400">
+      <div class="mx-auto max-w-6xl px-6 py-14">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+          <div class="col-span-2 md:col-span-1">
+            <p class="text-sm font-semibold text-white tracking-tight">Islington Partners</p>
+            <p class="mt-3 text-sm leading-relaxed text-gray-500">Systems, software, and automation for modern service firms.</p>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Navigation</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="/consulting/" class="hover:text-white transition">Consulting</a></li>
+              <li><a href="/projects/" class="hover:text-white transition">Projects</a></li>
+              <li><a href="/about/" class="hover:text-white transition">About</a></li>
+              <li><a href="/contact/" class="hover:text-white transition">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Current projects</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="https://clientguardacademy.com/" target="_blank" rel="noopener" class="hover:text-white transition">Client Guard Academy</a></li>
+              <li><a href="https://calendr.so/" target="_blank" rel="noopener" class="hover:text-white transition">calendr.so</a></li>
+              <li><a href="https://lnks.to/" target="_blank" rel="noopener" class="hover:text-white transition">lnks.to</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Legal</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="/privacy/" class="hover:text-white transition">Privacy Policy</a></li>
+              <li><a href="/terms/" class="hover:text-white transition">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-gray-600">
+          <p>© <span id="year"></span> Islington Partners. All rights reserved.</p>
+          <a href="mailto:hello@islingtonpartners.com" class="hover:text-gray-400 transition">hello@islingtonpartners.com</a>
+        </div>
+      </div>
+    </footer>
 
     <script>
-      // Set current year in footer
       document.getElementById('year').textContent = new Date().getFullYear();
-    </script>
-    <script>
-      (function () {
-        const banner = document.getElementById('buyers-guide-banner');
-        const dismissBtn = document.getElementById('buyers-guide-banner-dismiss');
-        if (!banner || !dismissBtn) return;
-
-        const key = 'ip_buyers_guide_banner_dismissed';
-        try {
-          if (localStorage.getItem(key) === '1') {
-            banner.remove();
-            return;
-          }
-        } catch (_) {
-          // ignore
-        }
-
-        dismissBtn.addEventListener('click', function () {
-          try { localStorage.setItem(key, '1'); } catch (_) {}
-          banner.remove();
-        });
-      })();
+      const toggle = document.getElementById('nav-toggle');
+      const menu = document.getElementById('mobile-menu');
+      if (toggle && menu) {
+        toggle.addEventListener('click', () => menu.classList.toggle('hidden'));
+      }
     </script>
   </body>
-  </html>
-
-
+</html>
