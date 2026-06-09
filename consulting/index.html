@@ -102,18 +102,24 @@
     <main>
 
       <!-- Hero -->
-      <section class="bg-white py-20 sm:py-28 border-b border-gray-100">
-        <div class="mx-auto max-w-6xl px-6">
+      <section class="relative overflow-hidden border-b border-gray-100">
+        <div class="absolute inset-0">
+          <!-- Photo by Unsplash -->
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2400&q=80" alt="Team collaborating in a meeting" class="h-full w-full object-cover" loading="eager" />
+          <div class="absolute inset-0 bg-gray-950/85"></div>
+          <div class="absolute inset-0 bg-gradient-to-r from-gray-950 via-gray-950/80 to-gray-900/40"></div>
+        </div>
+        <div class="relative mx-auto max-w-6xl px-6 py-28 sm:py-36">
           <div class="max-w-3xl">
-            <p class="text-xs font-medium text-gray-400 tracking-widest uppercase mb-5">Consulting</p>
-            <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight text-gray-900 leading-tight">
+            <p class="text-xs font-medium text-gray-300 tracking-widest uppercase mb-5">Consulting</p>
+            <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight text-white leading-tight">
               Consulting for accounting firms and professional service businesses.
             </h1>
-            <p class="mt-6 text-lg sm:text-xl text-gray-500 leading-relaxed max-w-2xl">
+            <p class="mt-6 text-lg sm:text-xl text-gray-300 leading-relaxed max-w-2xl">
               We help firms design better workflows, implement software properly, improve team adoption, and build more scalable operating systems.
             </p>
             <div class="mt-10">
-              <a href="/contact/" class="inline-flex items-center justify-center rounded-md bg-gray-900 px-6 py-3 text-sm font-medium text-white hover:bg-gray-700 transition">
+              <a href="/contact/" class="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-sm font-medium text-gray-900 hover:bg-gray-100 transition">
                 Book a consulting call
               </a>
             </div>
