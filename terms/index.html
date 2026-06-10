@@ -3,13 +3,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Terms — Islington Partners</title>
-    <meta name="description" content="Terms of service for Islington Partners." />
+    <title>Terms and Conditions | Islington Partners</title>
+    <meta name="description" content="Terms and Conditions governing the use of Calendr, operated by Islington Partners LTD." />
     <meta name="robots" content="index,follow" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Terms and Conditions | Islington Partners" />
+    <meta property="og:description" content="Terms and Conditions governing the use of Calendr, operated by Islington Partners LTD." />
+    <meta property="og:url" content="https://islingtonpartners.com/terms/" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -17,20 +23,15 @@
           extend: {
             colors: {
               base: {
-                50: '#fafafa',
-                100: '#f5f5f5',
-                200: '#e5e5e5',
-                300: '#d4d4d4',
-                400: '#a3a3a3',
-                500: '#737373',
-                600: '#525252',
-                700: '#404040',
-                800: '#262626',
-                900: '#171717',
-                950: '#0a0a0a',
+                50: '#fafafa', 100: '#f5f5f5', 200: '#e5e5e5',
+                300: '#d4d4d4', 400: '#a3a3a3', 500: '#737373',
+                600: '#525252', 700: '#404040', 800: '#262626',
+                900: '#171717', 950: '#0a0a0a',
               },
             },
-            fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+            fontFamily: {
+              sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+            },
           },
         },
       };
@@ -39,48 +40,233 @@
       html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
     </style>
   </head>
-  <body class="bg-white text-base-900 antialiased selection:bg-black/10 selection:text-black">
-    <header class="mx-auto max-w-6xl px-6 py-8">
-      <a href="/" class="inline-flex items-center gap-2 text-sm text-base-600 hover:text-base-950 transition">
-        <span class="flex h-7 w-7 items-center justify-center rounded bg-black text-white text-[11px]">_</span>
-        Islington Partners
-      </a>
+  <body class="bg-white text-gray-900 antialiased selection:bg-gray-100">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100">
+      <div class="mx-auto max-w-6xl px-6 py-4">
+        <div class="flex items-center justify-between">
+          <a href="/" class="font-semibold tracking-tight text-gray-900 hover:text-gray-600 transition text-sm">
+            Islington Partners
+          </a>
+          <nav class="hidden md:flex items-center gap-7 text-sm">
+            <a href="/" class="text-gray-500 hover:text-gray-900 transition">Home</a>
+            <a href="/consulting/" class="text-gray-500 hover:text-gray-900 transition">Consulting</a>
+            <a href="/projects/" class="text-gray-500 hover:text-gray-900 transition">Projects</a>
+            <a href="/about/" class="text-gray-500 hover:text-gray-900 transition">About</a>
+            <a href="/contact/" class="text-gray-500 hover:text-gray-900 transition">Contact</a>
+          </nav>
+          <button id="nav-toggle" class="md:hidden p-2 text-gray-500 hover:text-gray-900 transition" aria-label="Toggle navigation">
+            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+        <nav id="mobile-menu" class="hidden py-4 border-t border-gray-100 mt-4">
+          <div class="flex flex-col gap-4 text-sm">
+            <a href="/" class="text-gray-600 hover:text-gray-900 transition">Home</a>
+            <a href="/consulting/" class="text-gray-600 hover:text-gray-900 transition">Consulting</a>
+            <a href="/projects/" class="text-gray-600 hover:text-gray-900 transition">Projects</a>
+            <a href="/about/" class="text-gray-600 hover:text-gray-900 transition">About</a>
+            <a href="/contact/" class="text-gray-600 hover:text-gray-900 transition">Contact</a>
+          </div>
+        </nav>
+      </div>
     </header>
 
-    <main class="mx-auto max-w-3xl px-6 pb-16">
-      <h1 class="text-3xl font-semibold tracking-tight text-base-950">Terms</h1>
-      <p class="mt-3 text-base text-base-700">Placeholder terms page. Replace with your final terms text.</p>
+    <main>
 
-      <div class="mt-8 space-y-6 text-sm text-base-700">
-        <section>
-          <h2 class="text-base-950 font-medium">No advice</h2>
-          <p class="mt-2">Information provided is for general purposes and does not constitute legal, tax, or investment advice.</p>
-        </section>
-        <section>
-          <h2 class="text-base-950 font-medium">Confidentiality</h2>
-          <p class="mt-2">Deal flow and firm details may be confidential and should not be shared without permission.</p>
-        </section>
-        <section>
-          <h2 class="text-base-950 font-medium">Contact</h2>
-          <p class="mt-2">If you have questions, contact us via the forms on the site.</p>
-        </section>
-      </div>
+      <!-- Page header -->
+      <section class="py-16 sm:py-20 border-b border-gray-100">
+        <div class="mx-auto max-w-3xl px-6">
+          <p class="text-xs font-medium text-gray-400 tracking-widest uppercase mb-5">Legal</p>
+          <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight text-gray-900 leading-tight">Terms and Conditions</h1>
+          <p class="mt-4 text-sm text-gray-500">Effective Date: June 10, 2026</p>
+        </div>
+      </section>
+
+      <!-- Content -->
+      <section class="py-16">
+        <div class="mx-auto max-w-3xl px-6">
+          <div class="space-y-12">
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">1. Service Description</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Calendr is a scheduling platform designed for accountants, consultants, and professional service firms. It allows users to create booking pages, manage team scheduling, integrate with calendars, and collect relevant information through custom forms. The Service is offered on a subscription basis.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">2. Account Terms</h2>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">2.1 Registration</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Users must register with a valid email address and authenticate via password or third-party services (Google, Microsoft). By registering, you confirm that the information provided is accurate and up to date.</p>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">2.2 Firm-Based Access</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Users are grouped by firms or organizations, each with its own subdomain and admin controls. Users may be assigned roles: Admin, Standard, or Restricted, each with different access permissions.</p>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">2.3 Team Management</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Admins can invite, archive, or restore users within the organization. Responsibility for managing user access lies with the firm’s admin.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">3. Use of the Service</h2>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">3.1 Acceptable Use</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">You agree to use Calendr in a professional manner. You must not:</p>
+              <ul class="mt-3 space-y-2 text-sm text-gray-600 leading-relaxed list-disc pl-5">
+                <li>Upload or distribute malicious code</li>
+                <li>Use the Service for unsolicited communications</li>
+                <li>Infringe on the rights of others</li>
+              </ul>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">3.2 Calendar and Virtual Meeting Integrations</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">You are responsible for granting appropriate permissions for calendar integrations (Google/Microsoft) and virtual meeting platforms (e.g., Google Meet). We are not liable for synchronization issues or changes in third-party services.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">4. Subscriptions and Payments</h2>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">4.1 Subscription Terms</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Calendr operates on monthly and annual subscription models, with per-user pricing in some plans. Payments are processed via Stripe.</p>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">4.2 Billing</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Subscription fees are due in advance. You authorize us to charge your selected payment method via Stripe. Failure to pay may result in suspension or termination of access.</p>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">4.3 Cancellations and Refunds</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">You may cancel at any time through the admin dashboard. Refunds are not provided for partial billing periods unless required by applicable law.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">5. Data and Privacy</h2>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">5.1 Data Collection</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">We collect personal and professional information, including:</p>
+              <ul class="mt-3 space-y-2 text-sm text-gray-600 leading-relaxed list-disc pl-5">
+                <li>Name, email, and phone number</li>
+                <li>Firm name, job title</li>
+                <li>Calendar availability and meeting history</li>
+                <li>Custom form responses</li>
+              </ul>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">5.2 Data Storage</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Data is stored in UK, EU, or US AWS regions based on the user’s firm location. Files are stored in encrypted AWS S3 buckets.</p>
+
+              <h3 class="mt-6 text-base font-semibold text-gray-900">5.3 Data Retention</h3>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">User and booking data are retained for the duration of your subscription plus any legal or regulatory holding period.</p>
+
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">For more details, please refer to our <a href="/privacy/" class="text-gray-900 font-medium hover:text-gray-600 transition">Privacy Policy</a>.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">6. Communications</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">We use Amazon SES to deliver system notifications including confirmations, reminders, and cancellations. You may receive emails from us as part of using the Service.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">7. Intellectual Property</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Calendr and all associated materials are owned by Islington Partners LTD. You may not duplicate, copy, or reuse any portion without express written permission.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">8. Third-party Services</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">We integrate with third-party services including Google, Microsoft, Stripe, and AWS. We are not responsible for their service quality, availability, or terms.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">9. Service Availability</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">We aim to maintain high availability but do not guarantee 100% uptime. We may temporarily suspend access for maintenance or in cases of system abuse or legal requirements.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">10. Termination</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">You may terminate your account at any time. We reserve the right to terminate or suspend access for violations of these Terms or applicable law. Upon termination, your data will be deleted or anonymized after a retention period.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">11. Limitations of Liability</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">We are not liable for:</p>
+              <ul class="mt-3 space-y-2 text-sm text-gray-600 leading-relaxed list-disc pl-5">
+                <li>Missed meetings or scheduling conflicts</li>
+                <li>Data loss beyond our control</li>
+                <li>Service interruptions from third-party providers</li>
+              </ul>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">Our liability is limited to the amount paid by you to use the Service in the 12 months preceding the claim.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">12. Governing Law and Dispute Resolution</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">These Terms are governed by the laws of England and Wales. Any disputes shall be resolved exclusively in the courts of England.</p>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">13. Contact Information</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">For any questions or concerns, contact us at:</p>
+              <div class="mt-4 rounded-xl border border-gray-200 bg-gray-50 p-6 text-sm text-gray-600 leading-relaxed">
+                <p class="font-semibold text-gray-900">Islington Partners LTD</p>
+                <p class="mt-2">Email: <a href="mailto:thegoodpeople@calendr.so" class="text-gray-900 font-medium hover:text-gray-600 transition">thegoodpeople@calendr.so</a></p>
+                <p class="mt-2">Registered Address: Friarswood, Chipperfield Road, Kings Langley, Hertfordshire, England, WD4 9JB</p>
+              </div>
+            </div>
+
+            <div>
+              <h2 class="text-lg font-semibold text-gray-900">14. Changes to Terms</h2>
+              <p class="mt-3 text-sm text-gray-600 leading-relaxed">We reserve the right to modify these Terms. Changes will be posted on this page with an updated effective date. Continued use of the Service constitutes acceptance of the new Terms.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
     </main>
 
-    <footer class="mx-auto max-w-6xl px-6 pb-10">
-      <div class="h-px w-full bg-gradient-to-r from-transparent via-black/10 to-transparent"></div>
-      <div class="mt-6 flex flex-col items-start justify-between gap-3 text-xs text-base-500 sm:flex-row sm:items-center">
-        <span>© <span id="year"></span> Islington Partners</span>
-        <div class="inline-flex items-center gap-4">
-          <a href="/privacy/" class="hover:text-base-950 transition">Privacy</a>
+    <!-- Footer -->
+    <footer class="bg-gray-950 text-gray-400">
+      <div class="mx-auto max-w-6xl px-6 py-14">
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-10">
+          <div class="col-span-2 md:col-span-1">
+            <p class="text-sm font-semibold text-white tracking-tight">Islington Partners</p>
+            <p class="mt-3 text-sm leading-relaxed text-gray-500">Systems, software, and automation for modern service firms.</p>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Navigation</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="/consulting/" class="hover:text-white transition">Consulting</a></li>
+              <li><a href="/projects/" class="hover:text-white transition">Projects</a></li>
+              <li><a href="/about/" class="hover:text-white transition">About</a></li>
+              <li><a href="/contact/" class="hover:text-white transition">Contact</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Current projects</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="https://clientguardacademy.com/" target="_blank" rel="noopener" class="hover:text-white transition">Client Guard Academy</a></li>
+              <li><a href="https://calendr.so/" target="_blank" rel="noopener" class="hover:text-white transition">calendr.so</a></li>
+              <li><a href="https://lnks.to/" target="_blank" rel="noopener" class="hover:text-white transition">lnks.to</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="text-xs font-medium text-gray-600 uppercase tracking-wider mb-4">Legal</p>
+            <ul class="space-y-2.5 text-sm">
+              <li><a href="/privacy/" class="hover:text-white transition">Privacy Policy</a></li>
+              <li><a href="/cookies/" class="hover:text-white transition">Cookies Notice</a></li>
+              <li><a href="/terms/" class="hover:text-white transition">Terms</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mt-12 pt-8 border-t border-gray-800 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs text-gray-600">
+          <p>© <span id="year"></span> Islington Partners. All rights reserved.</p>
+          <a href="mailto:office@islingtonpartners.com" class="hover:text-gray-400 transition">office@islingtonpartners.com</a>
         </div>
       </div>
     </footer>
 
     <script>
       document.getElementById('year').textContent = new Date().getFullYear();
+      const toggle = document.getElementById('nav-toggle');
+      const menu = document.getElementById('mobile-menu');
+      if (toggle && menu) {
+        toggle.addEventListener('click', () => menu.classList.toggle('hidden'));
+      }
     </script>
   </body>
 </html>
-
-
