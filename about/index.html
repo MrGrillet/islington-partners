@@ -40,32 +40,8 @@
       html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
     </style>
 
-    <!-- Meta Pixel Code -->
-    <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1600633044369840');
-      fbq('track', 'PageView');
-    </script>
-    <!-- End Meta Pixel Code -->
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KGPP6931TC"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-KGPP6931TC');
-    </script>
   </head>
   <body class="bg-white text-gray-900 antialiased selection:bg-gray-100">
-    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1600633044369840&ev=PageView&noscript=1" /></noscript>
 
     <!-- Header -->
     <header class="sticky top-0 z-50 bg-white border-b border-gray-100">
@@ -263,5 +239,25 @@
         toggle.addEventListener('click', () => menu.classList.toggle('hidden'));
       }
     </script>
+
+    <!-- Cookie consent banner -->
+    <div id="cookie-banner" style="display:none" class="fixed bottom-0 inset-x-0 z-50 border-t border-gray-200 bg-white shadow-[0_-1px_8px_0_rgb(0,0,0,0.06)]">
+      <div class="mx-auto max-w-6xl px-6 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <p class="text-sm text-gray-600 leading-relaxed">
+          We use cookies for analytics and advertising measurement.
+          <a href="/cookies/" class="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-600 transition">Cookies Notice</a> ·
+          <a href="/privacy/" class="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-600 transition">Privacy Policy</a>
+        </p>
+        <div class="flex items-center gap-3 flex-shrink-0">
+          <button id="cookie-decline" class="rounded-md border border-gray-200 px-4 py-2 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-900 transition">
+            Decline
+          </button>
+          <button id="cookie-accept" class="rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700 transition">
+            Accept cookies
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="/js/consent.js"></script>
   </body>
 </html>

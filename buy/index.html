@@ -23,17 +23,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Analytics placeholders (replace IDs when ready) -->
-    <!-- GA4 placeholder -->
-    <script>
-      // window.GA4_MEASUREMENT_ID = "G-XXXXXXXXXX";
-      // TODO: Insert GA4 gtag snippet here.
-    </script>
-    <!-- Meta Pixel placeholder -->
-    <script>
-      // window.META_PIXEL_ID = "000000000000000";
-      // TODO: Insert Meta Pixel snippet here.
-    </script>
     <script>
       tailwind.config = {
         theme: {
@@ -206,6 +195,25 @@
       </footer>
     </div>
 
+    <!-- Cookie consent banner -->
+    <div id="cookie-banner" style="display:none" class="fixed bottom-0 inset-x-0 z-50 border-t border-gray-200 bg-white shadow-[0_-1px_8px_0_rgb(0,0,0,0.06)]">
+      <div class="mx-auto max-w-6xl px-6 py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <p class="text-sm text-gray-600 leading-relaxed">
+          We use cookies for analytics and advertising measurement.
+          <a href="/cookies/" class="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-600 transition">Cookies Notice</a> ·
+          <a href="/privacy/" class="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-600 transition">Privacy Policy</a>
+        </p>
+        <div class="flex items-center gap-3 flex-shrink-0">
+          <button id="cookie-decline" class="rounded-md border border-gray-200 px-4 py-2 text-sm font-medium text-gray-700 hover:border-gray-300 hover:text-gray-900 transition">
+            Decline
+          </button>
+          <button id="cookie-accept" class="rounded-md bg-gray-900 px-4 py-2 text-sm font-medium text-white hover:bg-gray-700 transition">
+            Accept cookies
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="/js/consent.js"></script>
   </body>
 </html>
 
